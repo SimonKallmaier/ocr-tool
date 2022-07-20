@@ -1,0 +1,15 @@
+fastapi
+pydantic
+requests
+uvicorn
+gunicorn
+
+pytesseract
+numpy
+opencv-python  # cv2
+joblib
+
+
+black
+flake8
+pytest
