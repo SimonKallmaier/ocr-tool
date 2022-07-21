@@ -10,7 +10,7 @@ class Path(BaseModel):
     path: str
 
 class Settings(BaseSettings):
-    GOOGLE_APPLICATION_CREDENTIALS: str = "/home/simon/.keys/ocr-tool-356915-1efb434cb118.json"
+    GOOGLE_APPLICATION_CREDENTIALS: str = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 
 
 settings = Settings()
