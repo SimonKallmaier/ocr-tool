@@ -1,14 +1,17 @@
+# TODO: update requirements
 fastapi
 pydantic
 requests
 uvicorn
 gunicorn
 
-pytesseract
+
 numpy
 opencv-python  # cv2
 joblib
+pdf2image
 
+ipykernel
 
 black
 flake8
