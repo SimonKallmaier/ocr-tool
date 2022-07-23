@@ -6,6 +6,7 @@ uvicorn
 gunicorn
 
 
+google-cloud-vision
 numpy
 opencv-python  # cv2
 joblib

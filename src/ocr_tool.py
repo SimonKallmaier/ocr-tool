@@ -2,7 +2,6 @@ import io
 from google.cloud import vision
 
 
-
 class OcrTextExtractor:
 
     def __init__(self, path) -> None:
